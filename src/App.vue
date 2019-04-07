@@ -49,7 +49,7 @@
           src="https://www.youtube.com/watch?v=L5oaI-C8Dhc"
           allowfullscreen
           allowtransparency
-          allow="autoplay"
+          allow="autoplay; fullscreen"
         ></iframe>
       </div>
     </PlyrUe>
@@ -59,7 +59,7 @@
           src="https://player.vimeo.com/video/6370469"
           allowfullscreen
           allowtransparency
-          allow="autoplay"
+          allow="autoplay; fullscreen"
         ></iframe>
       </div>
     </PlyrUe>
