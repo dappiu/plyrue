@@ -1,6 +1,6 @@
 <template>
   <div class="flex-it">
-    <plyrue>
+    <PlyrUe>
       <video
         crossorigin
         playsinline
@@ -42,8 +42,8 @@
           Download
         </a>
       </video>
-    </plyrue>
-    <plyrue>
+    </PlyrUe>
+    <PlyrUe>
       <div class="plyr__video-embed">
         <iframe
           src="https://www.youtube.com/watch?v=L5oaI-C8Dhc"
@@ -52,8 +52,8 @@
           allow="autoplay"
         ></iframe>
       </div>
-    </plyrue>
-    <plyrue>
+    </PlyrUe>
+    <PlyrUe>
       <div class="plyr__video-embed">
         <iframe
           src="https://player.vimeo.com/video/6370469"
@@ -62,17 +62,17 @@
           allow="autoplay"
         ></iframe>
       </div>
-    </plyrue>
+    </PlyrUe>
   </div>
 </template>
 
 <script>
-import { Plyrue } from '../dist/plyrue';
+import { PlyrUe } from '../dist/plyrue';
 
 export default {
   name: 'app',
   components: {
-    Plyrue
+    PlyrUe
   }
 }
 </script>

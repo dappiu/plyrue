@@ -1,22 +1,22 @@
-import Plyrue from "./components/Plyrue.vue";
-import 'plyr/dist/plyr.css';
+import PlyrUe from "./components/PlyrUe.vue"
+import 'plyr/dist/plyr.css'
 
-const PlyruePlugin = {
-  install(vue) {   
-    vue.component(Plyrue.name, Plyrue);
+const PlyrUePlugin = {
+  install(vue) {
+    vue.component(PlyrUe.name, PlyrUe);
   }
 }
 
 
 if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(PlyruePlugin)
+  window.Vue.use(PlyrUePlugin)
 }
 
 export {
-  Plyrue,
-  PlyruePlugin
+  PlyrUe,
+  PlyrUePlugin
 }
 
 export default {
-  PlyruePlugin
+  PlyrUePlugin
 }

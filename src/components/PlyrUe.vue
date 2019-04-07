@@ -8,7 +8,7 @@
   import Plyr from 'plyr'
 
   export default {
-    name: 'plyrue',
+    name: 'PlyrUe',
     props: {
       options: {
         type: Object,

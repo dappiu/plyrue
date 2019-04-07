@@ -1,9 +1,9 @@
-# Plyrue
+# PlyrUe
 
 This a custom fork of the original [vue-plyr](https://github.com/redxtech/vue-plyr) for internal use, the main difference is that is exclusively built with `bili@4`.
-Documentation is the same, directive is plyrue.
+Documentation is the same, directive is PlyrUe.
 
-In future, it will probably diverge even more. 
+In future, it will probably diverge even more.
 
 ## Project setup
 ```

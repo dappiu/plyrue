@@ -4,7 +4,7 @@ module.exports = {
   },
   output: {
     format: ['cjs', 'es', 'umd', 'umd-min'],
-    moduleName: 'Plyrue'
+    moduleName: 'PlyrUe'
   },
   postcss: {
     extract: true
