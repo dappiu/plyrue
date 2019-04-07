@@ -1,4 +1,4 @@
-import PlyrUe from './PlyrUe.vue'
+import PlyrUe from './components/PlyrUe.vue'
 
 PlyrUe.install = (Vue, options = {}) => {
   if (options.plyr) {
